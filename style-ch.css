@@ -70,3 +70,11 @@ tr:nth-child(even) {
     color: red;
 }
 
+#nobox {
+    background-color: aliceblue;
+    width: 250px;
+    position: sticky;
+    display: block;
+    bottom: 15px; 
+    float: right;
+}
