@@ -1,0 +1,72 @@
+p {
+    font-family: serif;
+    font-size: 20px;
+    color: rgb(20, 20, 43);
+    font-variant: normal;
+    letter-spacing: 2px;
+}
+
+a:hover {
+    background-color: rgb(88, 25, 25);
+}
+
+a:visited {
+    color :cadetblue;
+}
+
+body {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ecaf83;
+    background-position: bottom right;
+    background-size: cover;
+}
+
+#story {
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+q {
+    font-size: 160%;
+    background-color: gray;
+    border-left: 3px dashed black;
+    padding: 7.5px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    font-style: italic;
+}
+
+#vl {
+    border-left: 3px dashed crimson;
+}
+
+#farmer {
+    border-left: 3px dashed darkgoldenrod;
+}
+
+body>header {
+    background-color: yellow;
+}
+
+h1 + p {
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: grey;
+}
+
+.good {
+    text-transform: capitalize;
+    color: green;
+}
+
+.bad {
+    text-transform: capitalize;
+    color: red;
+}
+
