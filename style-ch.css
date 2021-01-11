@@ -78,3 +78,9 @@ tr:nth-child(even) {
     bottom: 15px; 
     float: right;
 }
+
+img {
+    width: 300px;
+    height: 200px;
+    float: left;
+}
